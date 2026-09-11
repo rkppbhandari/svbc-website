@@ -20,4 +20,11 @@ nav a {
     text-decoration: none;
     color: #5b1a1a;
     margin-left: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c59b2a;
 }
