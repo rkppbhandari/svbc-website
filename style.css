@@ -12,4 +12,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 6%;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5b1a1a;
+    margin-left: 30px;
 }
