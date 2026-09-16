@@ -36,7 +36,9 @@ nav a:hover {
 }
 
 .hero {
-  background-image: url("hero.png");
+  background-image:  
+    linear-gradient(rgba(255, 250, 240, 0.25), rgba(255, 250, 240, 0.25)),
+    url("hero.png");
   background-position: center;
   min-height: 600px;
   display: flex;
@@ -66,6 +68,11 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
+.hero h1,
+.hero p {
+  transform: translateY(-80px);
+}
+
 .button {
   background-color: #5b1a1a;
   color: white;
@@ -89,10 +96,15 @@ nav a:hover {
 
 .hero-motto {
   color:#463b1d;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .hero-motto span {
   display: block;
+}
+
+.hero-motto,
+.hero-namam {
+  transform: translateY(-45px);
 }
