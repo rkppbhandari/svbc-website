@@ -1,48 +1,677 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="logo.png">
-    <title>Shree Vaidik Bhakti Center of Greater Cincinnati</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shree Vaidik Bhakti Center of Greater Cincinnati</title>
+
+  <meta
+    name="description"
+    content="Shree Vaidik Bhakti Center of Greater Cincinnati is a nonprofit spiritual and cultural organization dedicated to Sanatan Dharma, Vaidik traditions, education, community, and seva."
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./images/logo.png">
 </head>
-  
+
 <body>
-  <header>
-       <a href="index.html">
-          <img src="logo.png" alt="Shree Vaidik Bhakti Center Logo">
+
+  <!-- =========================================
+       HEADER
+  ========================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+
+      <a href="index.html" class="brand" aria-label="Shree Vaidik Bhakti Center Home">
+        <img
+          src="images/logo.png"
+          alt="Shree Vaidik Bhakti Center of Greater Cincinnati"
+          class="site-logo"
+        >
+
+        <div class="brand-text">
+          <span class="brand-name">Shree Vaidik Bhakti Center</span>
+          <span class="brand-location">of Greater Cincinnati</span>
+        </div>
       </a>
-    <nav>
-      <a href="about.html">About Us</a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="events.html">Events</a>
+        <a href="donate.html" class="nav-donate">Donate</a>
+        <a href="contact.html">Contact</a>
+
+                    <!--
+            LANGUAGE SWITCHER - DISABLED FOR NOW
+            Uncomment this block when Nepali language support is added.
+
+            <button class="language-button" type="button">
+            English <span>|</span> नेपाली
+            </button>
+            -->
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
       <a href="events.html">Events</a>
       <a href="donate.html">Donate</a>
       <a href="contact.html">Contact</a>
+            <!--
+            LANGUAGE SWITCHER - DISABLED FOR NOW
+            Uncomment this block when Nepali language support is added.
+
+            <button class="mobile-language" type="button">
+            English | नेपाली
+            </button>
+            -->
     </nav>
   </header>
 
+
   <main>
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
     <section class="hero">
 
-      <img src="namam.png" alt="Sri Vaishnava Namam" class="hero-namam">
+      <div class="hero-overlay"></div>
 
-      <div class="hero-motto">
-        <span>वेदो नारायणः साक्षात्</span>
-        <small>The Vedas are Narayana Himself</small>
-    </div>
-      
+      <div class="container hero-content">
 
-      <h1>
-        Shree Vaidik Bhakti Center 
-        <span>of Greater Cincinnati</span>
-      </h1>
-      
-      <p>A nonprofit spiritual and cultural center serving the<br> Greater Cincinnati community through devotion, tradition, and unity.</p>
-      
-      <a href="about.html" class="button">Learn More</a>
-     </section>
+        <p class="hero-eyebrow">
+          Faith • Culture • Community • Seva
+        </p>
+
+        <h1>
+          Shree Vaidik Bhakti Center
+          <span>of Greater Cincinnati</span>
+        </h1>
+
+        <div class="gold-divider"></div>
+
+        <p class="hero-description">
+          Preserving Sanatan Dharma, nurturing spiritual growth,
+          celebrating our cultural heritage, and serving our community
+          through devotion, education, and seva.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="programs.html" class="btn btn-gold">
+            Explore Our Programs
+          </a>
+
+          <a href="events.html" class="btn btn-outline-light">
+            Upcoming Events
+          </a>
+
+          <a href="donate.html" class="btn btn-outline-light">
+            Support Our Mission
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero-bottom-decoration"></div>
+    </section>
+
+
+    <!-- =========================================
+         WELCOME
+    ========================================== -->
+    <section class="section welcome-section">
+
+      <div class="container two-column">
+
+        <div class="section-image">
+          <img
+            src="images/namam.png"
+            alt="Vaidik spiritual tradition"
+          >
+        </div>
+
+        <div class="section-content">
+
+          <p class="section-label">Welcome</p>
+
+          <h2>
+            Welcome to Shree Vaidik
+            <span>Bhakti Center</span>
+          </h2>
+
+          <div class="small-gold-divider"></div>
+
+          <p>
+            Shree Vaidik Bhakti Center of Greater Cincinnati is dedicated
+            to preserving and promoting Sanatan Dharma and Vaidik traditions
+            while creating a welcoming spiritual home for our community.
+          </p>
+
+          <p>
+            Through worship, education, cultural programs, community
+            gatherings, and seva, we seek to nurture devotion, strengthen
+            families, preserve our heritage, and pass timeless spiritual
+            values to future generations.
+          </p>
+
+          <a href="about.html" class="text-link">
+            Learn About Us <span>→</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         MISSION
+    ========================================== -->
+    <section class="section mission-section">
+
+      <div class="container narrow-container">
+
+        <div class="section-heading centered">
+          <p class="section-label">Our Purpose</p>
+          <h2>Our Mission</h2>
+          <div class="small-gold-divider center-divider"></div>
+
+          <p class="section-intro">
+            To preserve and promote Sanatan Dharma and Vaidik traditions
+            while fostering spiritual growth, cultural education, seva,
+            unity, and harmony within our community.
+          </p>
+        </div>
+
+        <div class="mission-grid">
+
+          <article class="mission-card">
+            <div class="card-icon">ॐ</div>
+            <h3>Sanatan Dharma</h3>
+            <p>
+              Preserving timeless Vaidik teachings and creating opportunities
+              for spiritual learning, worship, and devotion.
+            </p>
+          </article>
+
+          <article class="mission-card">
+            <div class="card-icon">✦</div>
+            <h3>Spiritual Growth</h3>
+            <p>
+              Supporting individuals and families in developing devotion,
+              values, knowledge, and a deeper spiritual connection.
+            </p>
+          </article>
+
+          <article class="mission-card">
+            <div class="card-icon">❀</div>
+            <h3>Culture & Education</h3>
+            <p>
+              Preserving Hindu traditions, language, festivals, culture,
+              and knowledge for present and future generations.
+            </p>
+          </article>
+
+          <article class="mission-card">
+            <div class="card-icon">♡</div>
+            <h3>Seva & Community</h3>
+            <p>
+              Serving our community with compassion while encouraging unity,
+              inclusiveness, cooperation, and interfaith harmony.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         PROGRAMS
+    ========================================== -->
+    <section class="section programs-section">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+          <p class="section-label">Learn • Worship • Serve</p>
+          <h2>Our Programs</h2>
+          <div class="small-gold-divider center-divider"></div>
+
+          <p class="section-intro">
+            Our programs provide opportunities for worship, spiritual
+            learning, cultural preservation, community connection, and seva.
+          </p>
+        </div>
+
+        <div class="program-grid">
+
+          <article class="program-card">
+            <div class="program-icon">🪔</div>
+            <h3>Religious & Spiritual Programs</h3>
+            <p>
+              Prayer, spiritual gatherings, Vaidik traditions, and
+              opportunities to deepen devotion and understanding.
+            </p>
+          </article>
+
+          <article class="program-card">
+            <div class="program-icon">🙏</div>
+            <h3>Vaidik Puja & Worship</h3>
+            <p>
+              Traditional puja, worship, and sacred observances rooted in
+              Vaidik and Sanatan Dharma traditions.
+            </p>
+          </article>
+
+          <article class="program-card">
+            <div class="program-icon">♫</div>
+            <h3>Bhajan & Kirtan</h3>
+            <p>
+              Devotional singing and community gatherings that bring
+              devotees together through bhakti.
+            </p>
+          </article>
+
+          <article class="program-card">
+            <div class="program-icon">✺</div>
+            <h3>Festivals & Celebrations</h3>
+            <p>
+              Community celebrations of important Hindu festivals,
+              traditions, and sacred occasions.
+            </p>
+          </article>
+
+          <article class="program-card">
+            <div class="program-icon">📖</div>
+            <h3>Youth & Religious Education</h3>
+            <p>
+              Educational opportunities helping younger generations
+              understand Dharma, values, traditions, and heritage.
+            </p>
+          </article>
+
+          <article class="program-card">
+            <div class="program-icon">✦</div>
+            <h3>Cultural & Language Education</h3>
+            <p>
+              Programs supporting cultural knowledge, language learning,
+              heritage, and community education.
+            </p>
+          </article>
+
+        </div>
+
+        <div class="center-button">
+          <a href="programs.html" class="btn btn-maroon">
+            View All Programs
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         EVENTS
+    ========================================== -->
+    <section class="section events-section">
+
+      <div class="container">
+
+        <div class="section-heading centered light-heading">
+          <p class="section-label gold-label">Gather • Celebrate • Worship</p>
+          <h2>Upcoming Events</h2>
+          <div class="small-gold-divider center-divider"></div>
+
+          <p class="section-intro">
+            Join our community for worship, festivals, spiritual programs,
+            educational activities, and cultural celebrations.
+          </p>
+        </div>
+
+        <div class="event-grid">
+
+          <article class="event-card">
+            <div class="event-date">
+              <span class="event-month">Upcoming</span>
+              <span class="event-day">Event</span>
+            </div>
+
+            <div class="event-content">
+              <h3>Community Spiritual Program</h3>
+              <p class="event-meta">Date & Time to be announced</p>
+              <p>
+                Join our community for prayer, devotion, spiritual learning,
+                and fellowship.
+              </p>
+              <a href="events.html">Learn More →</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date">
+              <span class="event-month">Upcoming</span>
+              <span class="event-day">Festival</span>
+            </div>
+
+            <div class="event-content">
+              <h3>Festival Celebration</h3>
+              <p class="event-meta">Details coming soon</p>
+              <p>
+                Celebrate sacred Hindu festivals together through worship,
+                culture, devotion, and community.
+              </p>
+              <a href="events.html">Learn More →</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date">
+              <span class="event-month">Regular</span>
+              <span class="event-day">Program</span>
+            </div>
+
+            <div class="event-content">
+              <h3>Bhajan & Community Gathering</h3>
+              <p class="event-meta">Schedule to be announced</p>
+              <p>
+                Come together for devotional music, prayer, and meaningful
+                community fellowship.
+              </p>
+              <a href="events.html">Learn More →</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="center-button">
+          <a href="events.html" class="btn btn-gold">
+            View All Events
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         SEVA
+    ========================================== -->
+    <section class="section seva-section">
+
+      <div class="container two-column reverse-mobile">
+
+        <div class="section-content">
+
+          <p class="section-label">Service With Devotion</p>
+
+          <h2>Seva — Service to Our Community</h2>
+
+          <div class="small-gold-divider"></div>
+
+          <p>
+            Seva, or selfless service, is an important expression of our
+            spiritual values. Through service, we put compassion, devotion,
+            and Dharma into action.
+          </p>
+
+          <p>
+            Our community strives to support one another, serve those in
+            need, encourage volunteerism, and create opportunities for
+            individuals and families to contribute their time, talents,
+            and resources.
+          </p>
+
+          <a href="programs.html" class="text-link">
+            Discover Seva Opportunities <span>→</span>
+          </a>
+
+        </div>
+
+        <div class="section-image seva-image">
+          <img
+            src="images/lotus line.png"
+            alt="Lotus symbol representing seva and spiritual service"
+          >
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         VALUES
+    ========================================== -->
+    <section class="values-section">
+
+      <div class="container values-grid">
+
+        <div class="value-item">
+          <span>ॐ</span>
+          <h3>Faith</h3>
+          <p>Growing through devotion and Dharma.</p>
+        </div>
+
+        <div class="value-item">
+          <span>❀</span>
+          <h3>Culture</h3>
+          <p>Preserving our traditions and heritage.</p>
+        </div>
+
+        <div class="value-item">
+          <span>✦</span>
+          <h3>Education</h3>
+          <p>Sharing knowledge across generations.</p>
+        </div>
+
+        <div class="value-item">
+          <span>♡</span>
+          <h3>Community</h3>
+          <p>Building unity and lasting connections.</p>
+        </div>
+
+        <div class="value-item">
+          <span>🙏</span>
+          <h3>Seva</h3>
+          <p>Serving selflessly with compassion.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         DONATION CTA
+    ========================================== -->
+    <section class="donation-cta">
+
+      <div class="donation-overlay"></div>
+
+      <div class="container donation-content">
+
+        <p class="section-label gold-label">Make a Difference</p>
+
+        <h2>Support Our Mission</h2>
+
+        <div class="small-gold-divider center-divider"></div>
+
+        <p>
+          Your support helps sustain spiritual programs, cultural education,
+          youth activities, festivals, community service, and the future
+          growth of Shree Vaidik Bhakti Center.
+        </p>
+
+        <a href="donate.html" class="btn btn-gold">
+          Donate / Offer Seva
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================
+         CONTACT PREVIEW
+    ========================================== -->
+    <section class="section contact-preview">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+          <p class="section-label">Connect With Us</p>
+          <h2>We'd Love to Hear From You</h2>
+          <div class="small-gold-divider center-divider"></div>
+
+          <p class="section-intro">
+            Contact us to learn more about our programs, events,
+            volunteer opportunities, seva, or ways to support our mission.
+          </p>
+        </div>
+
+        <div class="contact-cards">
+
+          <div class="contact-card">
+            <span class="contact-icon">✉</span>
+            <h3>Email</h3>
+            <p>Organization email coming soon</p>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-icon">☎</span>
+            <h3>Phone</h3>
+            <p>Organization phone coming soon</p>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-icon">⌖</span>
+            <h3>Location</h3>
+            <p>Greater Cincinnati, Ohio</p>
+          </div>
+
+        </div>
+
+        <div class="center-button">
+          <a href="contact.html" class="btn btn-maroon">
+            Contact Us
+          </a>
+        </div>
+
+      </div>
+    </section>
+
   </main>
-  
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-about">
+
+        <a href="index.html" class="footer-brand">
+          <img
+            src="images/logo.png"
+            alt="Shree Vaidik Bhakti Center logo"
+          >
+
+          <div>
+            <strong>Shree Vaidik Bhakti Center</strong>
+            <span>of Greater Cincinnati</span>
+          </div>
+        </a>
+
+        <p>
+          A nonprofit spiritual and cultural organization dedicated to
+          Sanatan Dharma, Vaidik traditions, education, community, and seva.
+        </p>
+
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="events.html">Events</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Programs</h3>
+        <a href="programs.html">Puja & Worship</a>
+        <a href="programs.html">Bhajan & Kirtan</a>
+        <a href="programs.html">Youth Education</a>
+        <a href="programs.html">Cultural Programs</a>
+        <a href="programs.html">Community Seva</a>
+      </div>
+
+      <div class="footer-column">
+
+        <h3>Contact</h3>
+      
+        <p 
+            data-org-address></p>
+      
+        <p>
+          <a data-org-email href="#"></a>
+        </p>
+      
+        <p>
+          <a data-org-phone href="#"></a>
+        </p>
+      
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+
+        <p>
+          © 2026 Shree Vaidik Bhakti Center of Greater Cincinnati.
+          All Rights Reserved.
+        </p>
+
+        <div class="footer-legal">
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./website-info.html">Website Information</a>
+          </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+
 </body>
-  
 </html>
